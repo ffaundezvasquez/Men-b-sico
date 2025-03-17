@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    justify-content: space-between;
+    min-height: 70px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 86px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+@media  (max-width: 680px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
